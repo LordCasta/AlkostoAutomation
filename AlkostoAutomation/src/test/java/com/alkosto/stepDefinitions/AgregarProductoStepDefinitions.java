@@ -24,8 +24,8 @@ public class AgregarProductoStepDefinitions {
     @Steps
     ValidacionesSteps validar = new ValidacionesSteps();
 
-    @Dado("Me encuentro en la pagina de SanAngel")
-    public void meEncuentroEnLaPaginaDeSanAngel() {
+    @Dado("Me encuentro en la pagina de Alkosto")
+    public void meEncuentroEnLaPaginaDeAlkosto() {
         SeleniumWebDriver.chromeDrive("https://www.alkosto.com/");
 
     }
